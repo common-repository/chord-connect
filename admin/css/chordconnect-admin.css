@@ -1,0 +1,177 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.chordconnect {
+    margin-left: -20px;
+}
+
+.chordconnect__masthead {
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    font-weight: 500;
+    line-height: 23px;
+    display: block;
+    padding: 20px 40px;
+}
+
+.chordconnect__masthead img {
+    height: 34px;
+}
+
+.chordconnect__content {
+    padding: 0px 20px;
+}
+
+.chordconnect__section {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.chordconnect__section.chordconnect__section--white {
+    background: #fff;
+    border: 1px solid rgba(200, 215, 225, 0.5);
+}
+
+.chordconnect__section.chordconnect__section--adjoined {
+    margin-top: 0;
+}
+
+.chordconnect__text--large {
+    font-size: 1.25em;
+}
+
+.chordconnect__text--large > strong {
+    color: #3476b2;;
+}
+
+.chordconnect__text--descriptive {
+    font-size: 13px !important;
+    font-style: normal;
+}
+
+.chordconnect__text--green {
+    color: #59d06c;
+}
+
+.chordconnect__text--red {
+    color: #A7301F;
+}
+
+.chordconnect__pre {
+    font-family: monospace;
+    white-space: pre;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.chordconnect__pre.chordconnect__pre--inline {
+    display: inline;
+}
+
+.chordconnect__th {
+    width: 60px !important;
+    line-height: 30px !important;
+}
+
+.chordconnect__input_group {
+    position: relative;
+    display: inline-block;
+}
+
+.chordconnect__input {
+    line-height: 30px;
+    width: 33em;
+}
+
+.chordconnect__icon {
+    font-size: 38px;
+    line-height: 38px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.chordconnect__icon.chordconnect__icon--green {
+    color: #59d06c;
+}
+
+.chordconnect__icon.chordconnect__icon--red {
+    color: #A7301F;
+}
+
+.chordconnect__icon.chordconnect__icon--hidden {
+    display: none;
+}
+
+.chordconnect__input_group .chordconnect__input {
+    padding-right: 40px;
+}
+
+.chordconnect__input_group .chordconnect__icon_wrapper {
+    height: 38px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    width: 40px;
+    text-align: center;
+    display: block;
+}
+
+.chordconnect__button {
+    height: auto !important;
+    line-height: 35px !important;
+    font-size: 14px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.chordconnect__notice {
+    margin: 20px 0 0 0 !important;
+}
+
+.chordconnect__badge {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1px 0 0 2px;
+    padding: 0 5px;
+    min-width: 7px;
+    height: 17px;
+    border-radius: 11px;
+    background-color: #3476b2;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+    text-align: center;
+    z-index: 26;
+}
+
+.chordconnect__branded_notice {
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(#3476b2), to(#69bd6d)) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(#3476b2, #69bd6d) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(#3476b2, #69bd6d) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(#3476b2, #69bd6d) 1 100%;
+    border-image:
+      linear-gradient(to bottom, #3476b2, #69bd6d) 1 100%;
+}
+
+.chordconnect__branded_notice img {
+    height: 20px;
+    margin-right: 1em;
+    position:relative;
+    top: 3px;
+}
+
+.chordconnect__branded_notice b {
+    font-size: 14px;
+}
+
+.chordconnect__branded_notice a {
+    font-size: 14px;
+}
